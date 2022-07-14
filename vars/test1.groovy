@@ -1,4 +1,4 @@
-def call(){
+def call(ss){
 echo 'mvn clean compile'
 }
 
