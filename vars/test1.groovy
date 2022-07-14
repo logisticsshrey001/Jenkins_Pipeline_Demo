@@ -1,27 +1,8 @@
 def call(){
-        pipeline{
-stages {
-        stage ('Compile Stage') {
-            steps {
-                 
-                echo 'mvn clean compile'
-                
-            }
-        }
-        stage ('Testing Stage') {
+echo 'mvn clean compile'
+}
 
-            steps {
-                 
-                    echo 'mvn test'
-                
-            }
-        }
-        stage ('Install Stage') {
-            steps {
-                 
-                    echo 'mvn install'
-                
-            }
-        }
-    }
-        }
+def call(demo1)
+{
+        echo 'mvn test'
+}
