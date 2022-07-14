@@ -1,4 +1,5 @@
 def call(){
+        pipeline{
 stages {
         stage ('Compile Stage') {
             steps {
@@ -23,3 +24,4 @@ stages {
             }
         }
     }
+        }
